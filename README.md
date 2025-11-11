@@ -1,4 +1,4 @@
-# 🍪 JavaScript Must Remember Formulas
+# 🍪 JavaScript Must Remember CheatSheet
 
 An html and javascript app where I save my javascript journey.
 
