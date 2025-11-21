@@ -9,3 +9,8 @@ console.log(newArray);
 // often clearer to name the parameter for future readability.
 const addCharacters = (_prefix) => (suffix) => suffix.toUpperCase();
 console.log(addCharacters("foo")("bar")); // → "BAR"
+
+// filtering
+const superHeroNames = ["Batman", "Spongebob", "Spiderman", "Patric"];
+const namesWithS = superHeroNames.filter((name) => name.startsWith("S"));
+const namesWithA  =                  
