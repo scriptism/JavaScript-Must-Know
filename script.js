@@ -13,9 +13,9 @@ console.log(addCharacters("foo")("bar")); // → "BAR"
 // filtering
 const superHeroNames = ["Batman", "Spongebob", "Spiderman", "Patric"];
 const namesWithS = superHeroNames.filter((name) => name.startsWith("S"));
-const namesWithA  = 
-
+const namesWithA = superHeroNames.filter((letterA) => letterA.includes("a"));
+console.log(namesWithS); // → ["Spongebob", "Spiderman"]
+console.log(namesWithA); // → ["Batman", "Spiderman", "Patric"]
 // .every(), it returns true if all elements pass the test
 const arr = ["A", "b", "C"];
-arr.every(letter => letter === letter.toUpperCase());
-
+arr.every((letter) => letter === letter.toUpperCase());
