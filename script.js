@@ -18,3 +18,4 @@ const namesWithA  =
 // .every(), it returns true if all elements pass the test
 const arr = ["A", "b", "C"];
 arr.every(letter => letter === letter.toUpperCase());
+
