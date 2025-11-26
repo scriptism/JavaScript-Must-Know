@@ -2,7 +2,7 @@
 
 An html and javascript app where I save my javascript journey.
 
-## What You’ll lern here:
+## What I have gathered here:
 
 Things about basics of javascript programming language like variables, functions, arrays, objects, methods like: map(), reduce(), etc. I will bring more changes in the future.
 
