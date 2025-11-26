@@ -1,6 +1,6 @@
 # 🍪 JavaScript Must Remember CheatSheet
 
-An html and javascript app where I save my javascript journey.
+A javascript file where I save my javascript journey.
 
 ## What I have gathered here:
 
