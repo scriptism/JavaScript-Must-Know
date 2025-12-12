@@ -21,7 +21,7 @@ const arr = ["A", "b", "C"];
 arr.every((letter) => letter === letter.toUpperCase());
 
 // slice method
-// Definitioon:
+// Definitioon: The slice() Method: This method returns a new array containing a shallow copy of a portion of the original array, specified by start and end indices. 
 const text = "freeCodeCamp";
 console.log(text.slice(0, 4));  // "free"
 console.log(text.slice(4, 8));  // "Code"
