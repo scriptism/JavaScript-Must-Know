@@ -30,3 +30,7 @@ console.log(text.slice(8, 12)); // "Camp"
 //The replace() Method: This method allows you to find a specified value (like a word or character) in a string and replace it with another value. 
 const text = "I like cats";
 console.log(text.replace("cats", "dogs")); // "I like dogs"
+
+// The repeat() Method: This method is used to repeat a string a specified number of times.
+const text = "Hello";
+console.log(text.repeat(3)); // "HelloHelloHello"
