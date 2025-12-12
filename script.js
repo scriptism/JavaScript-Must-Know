@@ -26,3 +26,5 @@ const text = "freeCodeCamp";
 console.log(text.slice(0, 4));  // "free"
 console.log(text.slice(4, 8));  // "Code"
 console.log(text.slice(8, 12)); // "Camp"
+
+//The replace() Method: This method allows you to find a specified value (like a word or character) in a string and replace it with another value. 
