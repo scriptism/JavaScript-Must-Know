@@ -21,6 +21,7 @@ const arr = ["A", "b", "C"];
 arr.every((letter) => letter === letter.toUpperCase());
 
 // slice method
+<<<<<<< HEAD
 
 const text = "freeCodeCamp";
 console.log(text.slice(0, 4)); // "free"
@@ -30,3 +31,18 @@ console.log(text.slice(8, 12)); // "Camp"
 // testing
 const isEven = (num) => num % 2 === 0;
 console.log(isEven(4));
+=======
+// Definitioon: The slice() Method: This method returns a new array containing a shallow copy of a portion of the original array, specified by start and end indices. 
+const text = "freeCodeCamp";
+console.log(text.slice(0, 4));  // "free"
+console.log(text.slice(4, 8));  // "Code"
+console.log(text.slice(8, 12)); // "Camp"
+
+//The replace() Method: This method allows you to find a specified value (like a word or character) in a string and replace it with another value. 
+const text = "I like cats";
+console.log(text.replace("cats", "dogs")); // "I like dogs"
+
+// The repeat() Method: This method is used to repeat a string a specified number of times.
+const text = "Hello";
+console.log(text.repeat(3)); // "HelloHelloHello"
+>>>>>>> 91d4c509b7753f08750b82e81e8af9b2e1a48bc5
