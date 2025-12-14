@@ -18,11 +18,15 @@ console.log(namesWithS); // → ["Spongebob", "Spiderman"]
 console.log(namesWithA); // → ["Batman", "Spiderman", "Patric"]
 // .every(), it returns true if all elements pass the test
 const arr = ["A", "b", "C"];
-arr.every((letter) => letter === letter.toUpperCase())
+arr.every((letter) => letter === letter.toUpperCase());
 
 // slice method
 
 const text = "freeCodeCamp";
-console.log(text.slice(0, 4));  // "free"
-console.log(text.slice(4, 8));  // "Code"
+console.log(text.slice(0, 4)); // "free"
+console.log(text.slice(4, 8)); // "Code"
 console.log(text.slice(8, 12)); // "Camp"
+
+// testing
+const isEven = (num) => num % 2 === 0;
+console.log(isEven(4));
