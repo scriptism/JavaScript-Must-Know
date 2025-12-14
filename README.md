@@ -1,10 +1,10 @@
 # 🍪 JavaScript Must Remember CheatSheet
 
-An html and javascript app where I save my javascript journey.
+A javascript file where I save my javascript journey.
 
-## What You’ll lern here:
+## What I have gathered here:
 
-Things about basics of javascript programming language like variables, functions, arrays, objects, methods like: map(), reduce(), etc. I will bring more changes in the future.
+Basics of javascript programming language like variables, functions, arrays, objects, methods like: map(), reduce(), etc. I will bring more changes in the future.
 
 ---
 
