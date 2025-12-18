@@ -21,6 +21,18 @@ Concatenation is the process of joining multiple strings or combining strings wi
 The + operator is one of the simplest and most frequently used methods to concatenate strings.
 */
 
+let studentName = "Asad";
+let studentAge = 25;
+let studentInfo = studentName + " is " + studentAge + " years old.";
+console.log(studentInfo); // Asad is 25 years old.
+
+let fname = "Karim";
+let lname = "Khan";
+// let fullName = fname + " " + lname;
+// or
+// let fullName = `${fname} ${lname}`;
+// let fullName = fname.concat(" ", lname);
+// -------------------------------------------
 // A function reference is a function name without the parentheses
 const myFunc = (val) => `value: ${val}`;
 const array = [1, 2, 3];
