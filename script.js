@@ -10,9 +10,15 @@ String: a sequence of characters, enclosed in quotes. 'JavaScript is fun'
 Boolean: true or false. Can represent a condition, such as isLoggedIn = true.
 Undefined: a variable that has been declared but not assigned a value. 
 Null:A null value is an empty value or a variable that has intentionally been assigned null.
-Object: An object is a collection of key-value pairs. The key is the property name, and the value is the property value.
+Object: a collection of key-value pairs. The key is the property name, and the value is the property value.
+Symbol: a unique and immutable value that may be used as an identifier for object properties.
+BigInt: When the number is too large for the Number data type, you can use the BigInt data type to represent integers of arbitrary length.
+*/
 
-
+/*  
+String Concatenation in JavaScript
+Concatenation is the process of joining multiple strings or combining strings with variables that hold text. 
+The + operator is one of the simplest and most frequently used methods to concatenate strings.
 */
 
 // A function reference is a function name without the parentheses
