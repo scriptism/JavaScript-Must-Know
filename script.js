@@ -99,3 +99,8 @@ console.log(char); // A
 const text = "The quick brown fox jumps over the lazy dog.";
 console.log(text.indexOf("fox")); // 16
 console.log(text.indexOf("cat")); // -1
+
+// The includes()
+// text is the same as above
+console.log(text.includes("fox")); // true
+console.log(text.includes("cat")); // false
