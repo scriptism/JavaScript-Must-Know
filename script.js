@@ -87,3 +87,15 @@ console.log(poem);
 // Escaping Strings:
 const statement = 'She said, "Hello!"';
 console.log(statement); // She said, "Hello!"
+
+// ASCII, the charCodeAt() Method and the fromCharCode() Method
+const letter = "A";
+console.log(letter.charCodeAt(0)); // 65
+
+const char = String.fromCharCode(65);
+console.log(char); // A
+
+// Other Common String Methods, indexOf():
+const text = "The quick brown fox jumps over the lazy dog.";
+console.log(text.indexOf("fox")); // 16
+console.log(text.indexOf("cat")); // -1
