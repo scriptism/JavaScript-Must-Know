@@ -73,3 +73,8 @@ console.log(text2.replace("cats", "dogs")); // "I like dogs"
 // The repeat() Method: This method is used to repeat a string a specified number of times.
 const text3 = "Hello";
 console.log(text3.repeat(3)); // "HelloHelloHello"
+
+// typeof()
+
+let age = 40;
+console.log(typeof age);
