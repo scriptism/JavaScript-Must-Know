@@ -78,3 +78,12 @@ console.log(text3.repeat(3)); // "HelloHelloHello"
 
 let age = 40;
 console.log(typeof age);
+
+// \n (Newline Character):
+const poem =
+  "Roses are red,\nViolets are blue,\nJavaScript is fun,\nAnd so are you.";
+console.log(poem);
+
+// Escaping Strings:
+const statement = 'She said, "Hello!"';
+console.log(statement); // She said, "Hello!"
