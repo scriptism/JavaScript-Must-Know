@@ -96,7 +96,7 @@ const char = String.fromCharCode(65);
 console.log(char); // A
 
 // Other Common String Methods, indexOf():
-const text = "The quick brown fox jumps over the lazy dog.";
+const text = "FreeCodeCamp";
 console.log(text.indexOf("fox")); // 16
 console.log(text.indexOf("cat")); // -1
 
@@ -104,3 +104,9 @@ console.log(text.indexOf("cat")); // -1
 // text is the same as above
 console.log(text.includes("fox")); // true
 console.log(text.includes("cat")); // false
+
+// other methods: toUpperCase(), toLowerCase(), trim()
+console.log(text.slice(0, 4)); // "free"
+console.log(text.slice(4, 8)); // "Code"
+console.log(text.slice(0, 4).toUpperCase()); // "FREE"
+console.log(text.slice(4, 8).toLowerCase()); // "code"
