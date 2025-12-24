@@ -110,3 +110,6 @@ console.log(text.slice(0, 4)); // "free"
 console.log(text.slice(4, 8)); // "Code"
 console.log(text.slice(0, 4).toUpperCase()); // "FREE"
 console.log(text.slice(4, 8).toLowerCase()); // "code"
+
+const text4 = "I love JavaScript   ";
+console.log(text4.replace("JavaScript", "coding").trim()); // "I love coding"
